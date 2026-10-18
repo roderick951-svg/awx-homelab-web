@@ -1,0 +1,7 @@
+---
+- name: Deploy Homelab Web Server
+  hosts: all
+  become: yes
+  roles:
+    - homelab_nginx
+
